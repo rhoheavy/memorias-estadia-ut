@@ -33,6 +33,9 @@
     <div class="container bg-button w-12 m-10 h-15 text-white text-center p-2">Main</div>
     <div class="container bg-contrast3 w-12 m-10 h-15 text-white text-center p-2">Main</div>
     <div class="container bg-bars w-12 m-10 h-15 text-white text-center p-2">Main</div>
+
+
+    <div class="h-96 w-100 bg-no-repeat" style="background-image: url({{ 'images/students.png' }})"></div>
 </body>
 
 </html>
