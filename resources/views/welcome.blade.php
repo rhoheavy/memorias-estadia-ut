@@ -36,6 +36,8 @@
 
 
     <div class="h-96 w-100 bg-no-repeat" style="background-image: url({{ 'images/students.png' }})"></div>
+
+    <div class="w-full h-full bg-no-repeat bg-cover" style="background-image: url({{ '../images/students-homepage.png' }})></div>
 </body>
 
 </html>

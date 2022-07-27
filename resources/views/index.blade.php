@@ -13,7 +13,7 @@
 <body>
 
     {{-- menu de navegación --}}
-    <nav class="bg-contrast text-links md:text-sm lg:text-base">
+    <nav class="bg-contrast text-links font-workSans md:text-sm lg:text-base">
 
         <div class="pl-10 pr-20 mx-auto">
             <div class="flex justify-between items-center">
@@ -46,12 +46,46 @@
                 </div>
             </div>
             {{-- mobile menu --}}
-            <div class="mobile-menu hidden md:hidden text-right">
+            <div class="mobile-menu hidden   md:hidden text-right">
                 <a class="block py-2 px-4 text-sm hover:bg-gray-600" href="#">Iniciar Sesión</a>
                 <a class="block py-2 px-4 text-sm hover:bg-gray-600" href="#">Sobre Nosotros</a>
             </div>
         </div>
     </nav>
+
+    {{-- contenido --}}
+
+
+    <main class="container">
+
+        {{-- contenedor headliner --}}
+        {{-- TODO: responve headliner --}}
+        <div class="grid grid-cols-1 w-screen h-[30rem]  p-14 text-center bg-no-repeat bg-cover bg-center lg:h-[36rem]"
+            style="background-image: url({{ 'images/students.png' }})">
+            {{-- div del h1 --}}
+            <div class=" w-[38rem] h-12 md:p-10 lg: pt-5 m-auto">
+                <h1 class="text-white font-mavenPro font-semibold text-6xl w-[38rem] h-12 md:p-10 lg: pt-5">
+                    Tus Memorias en un solo Sitio
+                </h1>
+            </div>
+            {{-- div button --}}
+            <div class="w-[10rem] h-[2.8rem] m-auto">
+                <button class=" bg-button px-4 py-2 w-[10rem] h-[2.8rem] text-white" type="button">
+                    Comenzar
+                </button>
+            </div>
+        </div>
+
+        {{-- div bar steps --}}
+        <div class="container">
+
+        </div>
+
+    </main>
+
+
+
+
 
 
     <script src={{ 'js/app.js' }}></script>
