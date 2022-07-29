@@ -20,6 +20,7 @@ module.exports = {
                 contrast3: "#7D797A",
                 links: "#BABABA",
                 bars: "#736549",
+                bluish: "#ECF5FE",
             },
         },
     },

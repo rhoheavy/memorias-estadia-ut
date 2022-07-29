@@ -59,7 +59,7 @@
     <main class="container">
 
         {{-- contenedor headliner --}}
-        {{-- TODO: responve headliner --}}
+        {{-- TODO: responsive headliner --}}
         <div class="grid grid-cols-1 w-screen h-[30rem]  p-14 text-center bg-no-repeat bg-cover bg-center lg:h-[36rem]"
             style="background-image: url({{ 'images/students.png' }})">
             {{-- div del h1 --}}
@@ -77,8 +77,99 @@
         </div>
 
         {{-- div bar steps --}}
-        <div class="container">
+        {{-- TODO: Terminar logos y textos y responsive --}}
+        <div class="grid grid-cols-3 bg-contrast2 h-[10rem] w-screen text-white p-8">
+            <div class="grid grid-cols-2">
+                <div><img src="" alt="logo"></div>
+                <div>
+                    <h5 class="font-semibold">Title</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam nesciunt dolore, autem alias
+                        quae incidunt.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2">
+                <div><img src="" alt="logo"></div>
+                <div>
+                    <h5 class="font-semibold">Title 2</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non facilis laudantium sapiente
+                        quisquam?</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2">
+                <div><img src="" alt="logo"></div>
+                <div>
+                    <h5 class="font-semibold">Title 3</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, ipsa provident neque laborum
+                        nulla corporis vel?</p>
+                </div>
+            </div>
+        </div>
 
+        {{-- div informacion universidad --}}
+        {{-- TODO: Fix padding imagen a la derecha --}}
+        <div class="grid grid-cols-2 w-screen">
+            <div class="p-36">
+                <h3 class="font-bold pb-10 font-mavenPro">Universidad Tecnológica de Nayarit</h3>
+                <p class="font-light">Justo malesuada tempor lacus, posuere. Consequat sagittis sed tortor leo id
+                    scelerisque ac elit
+                    curabitur. Dignissim et id at netus. Facilisi integer quis feugiat tempus. Cursus feugiat felis
+                    etiam ipsum, in mauris sit eget habitant.
+
+                    Vivamus et, est rutrum elit netus malesuada ac cursus. Augue mauris tellus quis cras quam magna.
+                    Tincidunt condimentum magnis vitae magna blandit ornare felis, tortor non.</p>
+            </div>
+            <div class="py-10">
+                <img src={{ 'images/girl_library.png' }} alt="">
+            </div>
+        </div>
+
+        {{-- div barra numeros --}}
+        {{-- TODO: Bars texto y espaciados --}}
+        <div class="grid grid-cols-4 bg-bars w-screen h-[8rem]  py-8 px-16">
+            <div>
+                <h3 class="text-button">2324</h3>
+                <p class="text-white">Sit fermentum, lectus eu aliquam ornare varius pharetra.</p>
+            </div>
+            <div>
+                <h3 class="text-button">244</h3>
+                <p class="text-white">Adipiscing lacus, vulputate ut pulvinar metus.</p>
+            </div>
+            <div>
+                <h3 class="text-button">675</h3>
+                <p class="text-white">Faucibus porta nunc gravida arcu.</p>
+            </div>
+            <div>
+                <h3 class="text-button">10000</h3>
+                <p class="text-white">Urna habitant ultricies erat vulputate eget.</p>
+            </div>
+        </div>
+
+        {{-- seccion saber más --}}
+        {{-- TODO: Centrar texto, barra verde y centrar imagenes, fix overlapping con footer --}}
+        <div class="bg-bluish w-screen h-[18rem] grid grid-rows-2">
+            <div class="">
+                <h4>Para saber más</h4>
+            </div>
+            {{-- <div class="grid grid-cols-3">
+                <img src={{ 'images/imageSep.png' }} alt="sep">
+                <img src={{ 'images/imageNay.png' }} alt="nay">
+                <img src={{ 'images/imageSocial.png' }} alt="social">
+            </div> --}}
+        </div>
+
+        {{-- footer --}}
+        {{-- TODO: Posicionar textos, fuentes y tamaños, input form y texto copyright --}}
+
+        <div class="bg-contrast2 w-screen h-[15rem] grid grid-cols-2">
+            <div>
+                <p class="text-white"> Mantente al tanto de las actualizaciones</p>
+            </div>
+            <div>
+                <input type="email" name="" id="">
+            </div>
+            <div>
+                <p class="text-white">© 2022 Universidad Tecnológica de Nayarit. Derechos Reservados.</p>
+            </div>
         </div>
 
     </main>
