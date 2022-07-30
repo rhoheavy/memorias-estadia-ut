@@ -59,7 +59,7 @@
     <main class="">
 
         {{-- contenedor headliner --}}
-        {{-- TODO: Centrar texto boton ?? --}}
+        {{-- TODO: Centrar texto boton m-[]?? --}}
         <div class="grid grid-cols-1 grid-rows-2 w-screen h-[30rem]  p-14 text-center bg-no-repeat bg-cover bg-center lg:h-[36rem] gap-28"
             style="background-image: url({{ 'images/students.png' }})">
             {{-- div del h1 --}}
@@ -77,30 +77,52 @@
         </div>
 
         {{-- div bar steps --}}
-        {{-- TODO: Terminar logos y textos y responsive --}}
-        <div class="grid grid-cols-3 bg-contrast2 h-[10rem] w-screen text-white p-8">
-            <div class="grid grid-cols-2">
-                <div><img src="" alt="logo"></div>
+        {{-- TODO: Se puede mejorar el responsive de la barra , figure out hidden property --}}
+        <div
+            class="grid grid-rows-1 grid-cols-3 bg-contrast2 h-[10rem] w-screen text-white pl-2    pr-40  py-8 items-center">
+            <div class="flex grid grid-cols-2 grid-rows-1">
+                <div> <img class="md:invisible lg:visible pl-44" src={{ 'images/search.svg' }} alt="imagen"></div>
                 <div>
-                    <h5 class="font-semibold">Title</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam nesciunt dolore, autem alias
-                        quae incidunt.</p>
+                    <h4 class="font-semibold font-workSans">Titulo</h4>
+                    <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
+                        ipsum
+                        dolor
+                        sit
+                        amet consectetur
+                        adipisicing elit.
+                        Vitae sint
+                        consequatur voluptates ipsum
+                        harum.</p>
                 </div>
             </div>
-            <div class="grid grid-cols-2">
-                <div><img src="" alt="logo"></div>
+            <div class="grid grid-cols-2 grid-rows-1">
+                <div> <img class="md:invisible lg:visible pl-44" src={{ 'images/book.svg' }} alt="imagen"></div>
                 <div>
-                    <h5 class="font-semibold">Title 2</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non facilis laudantium sapiente
-                        quisquam?</p>
+                    <h4 class="font-semibold font-workSans">Titulo</h4>
+                    <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
+                        ipsum
+                        dolor
+                        sit
+                        amet consectetur
+                        adipisicing elit.
+                        Vitae sint
+                        consequatur voluptates ipsum
+                        harum.</p>
                 </div>
             </div>
-            <div class="grid grid-cols-2">
-                <div><img src="" alt="logo"></div>
+            <div class="grid grid-cols-2 grid-rows-1">
+                <div> <img class="md:invisible lg:visible pl-44" src={{ 'images/download.svg' }} alt="imagen"></div>
                 <div>
-                    <h5 class="font-semibold">Title 3</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, ipsa provident neque laborum
-                        nulla corporis vel?</p>
+                    <h4 class="font-semibold font-workSans">Titulo</h4>
+                    <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
+                        ipsum
+                        dolor
+                        sit
+                        amet consectetur
+                        adipisicing elit.
+                        Vitae sint
+                        consequatur voluptates ipsum
+                        harum.</p>
                 </div>
             </div>
         </div>
