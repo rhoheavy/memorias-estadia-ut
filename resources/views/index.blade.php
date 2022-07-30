@@ -56,11 +56,11 @@
     {{-- contenido --}}
 
 
-    <main class="container">
+    <main class="">
 
         {{-- contenedor headliner --}}
-        {{-- TODO: responsive headliner --}}
-        <div class="grid grid-cols-1 w-screen h-[30rem]  p-14 text-center bg-no-repeat bg-cover bg-center lg:h-[36rem]"
+        {{-- TODO: Centrar texto boton ?? --}}
+        <div class="grid grid-cols-1 grid-rows-2 w-screen h-[30rem]  p-14 text-center bg-no-repeat bg-cover bg-center lg:h-[36rem] gap-28"
             style="background-image: url({{ 'images/students.png' }})">
             {{-- div del h1 --}}
             <div class=" w-[38rem] h-12 md:p-10 lg: pt-5 m-auto">
@@ -69,7 +69,7 @@
                 </h1>
             </div>
             {{-- div button --}}
-            <div class="w-[10rem] h-[2.8rem] m-auto">
+            <div class="w-[10rem] h-[2.8rem] justify-self-center ml-2 md:ml-14">
                 <button class=" bg-button px-4 py-2 w-[10rem] h-[2.8rem] text-white" type="button">
                     Comenzar
                 </button>
