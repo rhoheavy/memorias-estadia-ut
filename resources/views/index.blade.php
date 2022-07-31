@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Página de Inicio</title>
+    <title>Universidad Tecnológica de Nayarit - Página de Inicio</title>
     <link rel="home icon" href={{ 'images/logout.ico' }} type="image/x-icon">
     @vite('resources/css/app.css')
 </head>
@@ -94,59 +94,12 @@
             </div>
         </div>
 
-
-        {{-- <div class=" grid grid-cols-2 grid-rows-1">
-            <div> <img class="flex md:hidden lg:flex pl-44" src={{ 'images/search.svg' }} alt="imagen"></div>
-            <div>
-                <h4 class="font-semibold font-workSans">Titulo</h4>
-                <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
-                    ipsum
-                    dolor
-                    sit
-                    amet consectetur
-                    adipisicing elit.
-                    Vitae sint
-                    consequatur voluptates ipsum
-                    harum.</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-2 grid-rows-1">
-            <div> <img class="md:invisible lg:visible pl-44" src={{ 'images/book.svg' }} alt="imagen"></div>
-            <div>
-                <h4 class="font-semibold font-workSans">Titulo</h4>
-                <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
-                    ipsum
-                    dolor
-                    sit
-                    amet consectetur
-                    adipisicing elit.
-                    Vitae sint
-                    consequatur voluptates ipsum
-                    harum.</p>
-            </div>
-        </div>
-        <div class="grid grid-cols-2 grid-rows-1">
-            <div> <img class="md:invisible lg:visible pl-44" src={{ 'images/download.svg' }} alt="imagen"></div>
-            <div>
-                <h4 class="font-semibold font-workSans">Titulo</h4>
-                <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
-                    ipsum
-                    dolor
-                    sit
-                    amet consectetur
-                    adipisicing elit.
-                    Vitae sint
-                    consequatur voluptates ipsum
-                    harum.</p>
-            </div>
-        </div> --}}
-
         {{-- div informacion universidad --}}
         {{-- TODO: Tamaños md: imagen --}}
 
-        <div class="grid w-screen h-[38rem]">
+        <div class="grid w-screen h-[32rem]">
             <div class="px-10">
-                <div class="pt-16 font-semibold text-center pb-5">Universidad Tecnológica de Nayarit</div>
+                <div class="pt-16 font-semibold text-center pb-10">Universidad Tecnológica de Nayarit</div>
                 <div class="font-extralight text-justify">
                     <p class="pb-4">Justo malesuada tempor lacus, posuere. Consequat sagittis sed tortor leo id
                         scelerisque ac elit
@@ -159,60 +112,30 @@
             <div><img class="hidden" src={{ 'images/girl_library.png' }} alt=""></div>
         </div>
 
-
-        {{-- <div class="p-40 grid">
-            <div>
-                <h2 class="font-bold pb-10 font-mavenPro text-2xl ml-56">Universidad Tecnológica de Nayarit</h2>
-            </div>
-            <div>
-                <p class="font-light text-base w-[28rem] text-justify leading-relaxed mb-4">Justo
-                    malesuada
-                    tempor
-                    lacus,
-                    posuere.
-                    Consequat
-                    sagittis
-                    sed tortor leo
-                    id
-                    scelerisque ac elit
-                    curabitur. Dignissim et id at netus. Facilisi integer quis feugiat tempus. Cursus feugiat felis
-                    etiam ipsum, in mauris sit eget habitant.
-
-                    Vivamus et, est rutrum elit netus malesuada ac cursus. Augue mauris tellus quis cras quam magna.
-                    Tincidunt condimentum magnis vitae magna blandit ornare felis, tortor non.</p>
-                <p class="font-light text-base w-[28rem] text-justify leading-relaxed">
-                    Vivamus et, est rutrum elit netus malesuada ac cursus. Augue mauris tellus quis cras quam magna.
-                    Tincidunt condimentum magnis vitae magna blandit ornare felis, tortor non.
-                </p>
-            </div>
-        </div>
-        <div class="py-10">
-            <img class="ml-40" src={{ 'images/girl_library.png' }} alt="">
-        </div> --}}
         {{-- div barra numeros --}}
-        {{-- TODO: Bars texto y espaciados --}}
-        <div class="hidden sm:grid grid-cols-4 bg-bars w-screen h-[8rem] p-10">
+        {{-- TODO: Tamaños md: --}}
+        <div class="grid grid-cols-4 gap-x-2 bg-bars w-screen h-[8rem] p-10">
             <div>
-                <h3 class="text-button">2324</h3>
-                <p class="text-white">Sit fermentum, lectus eu aliquam ornare varius pharetra.</p>
+                <h3 class="text-button">12</h3>
+                <p class="text-white text-xs font-light">Carreras</p>
             </div>
             <div>
-                <h3 class="text-button">244</h3>
-                <p class="text-white">Adipiscing lacus, vulputate ut pulvinar metus.</p>
+                <h3 class="text-button">20</h3>
+                <p class="text-white text-xs font-light">Convenios</p>
             </div>
             <div>
-                <h3 class="text-button">675</h3>
-                <p class="text-white">Faucibus porta nunc gravida arcu.</p>
+                <h3 class="text-button">+300</h3>
+                <p class="text-white text-xs font-light">Estudiantes</p>
             </div>
             <div>
-                <h3 class="text-button">10000</h3>
-                <p class="text-white">Urna habitant ultricies erat vulputate eget.</p>
+                <h3 class="text-button">+5000</h3>
+                <p class="text-white text-xs font-light">Egresados</p>
             </div>
         </div>
 
         {{-- seccion saber más --}}
         {{-- TODO: Centrar texto, barra verde y centrar imagenes, fix overlapping con footer --}}
-        <div class="bg-bluish w-screen h-[18rem] grid grid-rows-2">
+        <div class="grid grid-rows-2 bg-bluish w-screen h-[18rem] p-10 text-center">
             <div class="">
                 <h4>Para saber más</h4>
             </div>
