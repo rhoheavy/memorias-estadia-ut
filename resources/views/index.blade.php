@@ -82,15 +82,15 @@
         <div class="grid grid-cols-3 bg-contrast2 h-[10rem] w-screen text-white p-5 text-center">
             <div class="grid grid-rows-2 grid-cols-1 p-2">
                 <div class="row-span-2">Busca</div>
-                <div class="ml-3 row-span-3"><img src={{ 'images/search.svg' }} alt="busqueda"></div>
+                <div class=" row-span-3 justify-self-center"><img src={{ 'images/search.svg' }} alt="busqueda"></div>
             </div>
             <div class="grid grid-rows-2 grid-cols-1 p-2">
                 <div class="row-span-2">Lee</div>
-                <div class="ml-5 row-span-3"><img src={{ 'images/book.svg' }} alt="busqueda"></div>
+                <div class=" row-span-3 justify-self-center"><img src={{ 'images/book.svg' }} alt="busqueda"></div>
             </div>
             <div class="grid grid-rows-2 grid-cols-1 p-2">
                 <div class="row-span-2">Descarga</div>
-                <div class="ml-7 row-span-3"><img src={{ 'images/download.svg' }} alt="busqueda"></div>
+                <div class="justify-self-center row-span-3"><img src={{ 'images/download.svg' }} alt="busqueda"></div>
             </div>
         </div>
 
@@ -142,39 +142,53 @@
         </div> --}}
 
         {{-- div informacion universidad --}}
-        {{-- TODO: Fix padding imagen a la derecha --}}
-        <div class="grid grid-cols-2 grid-rows-1 w-screen">
-            <div class="p-40 grid">
-                <div>
-                    <h2 class="font-bold pb-10 font-mavenPro text-2xl ml-56">Universidad Tecnológica de Nayarit</h2>
-                </div>
-                <div>
-                    <p class="font-light text-base w-[28rem] text-justify leading-relaxed mb-4">Justo
-                        malesuada
-                        tempor
-                        lacus,
-                        posuere.
-                        Consequat
-                        sagittis
-                        sed tortor leo
-                        id
+        {{-- TODO: Tamaños md: imagen --}}
+
+        <div class="grid w-screen h-[38rem]">
+            <div class="px-10">
+                <div class="pt-16 font-semibold text-center pb-5">Universidad Tecnológica de Nayarit</div>
+                <div class="font-extralight text-justify">
+                    <p class="pb-4">Justo malesuada tempor lacus, posuere. Consequat sagittis sed tortor leo id
                         scelerisque ac elit
                         curabitur. Dignissim et id at netus. Facilisi integer quis feugiat tempus. Cursus feugiat felis
-                        etiam ipsum, in mauris sit eget habitant.
-
-                        Vivamus et, est rutrum elit netus malesuada ac cursus. Augue mauris tellus quis cras quam magna.
+                        etiam ipsum, in mauris sit eget habitant.</p>
+                    <p>Vivamus et, est rutrum elit netus malesuada ac cursus. Augue mauris tellus quis cras quam magna.
                         Tincidunt condimentum magnis vitae magna blandit ornare felis, tortor non.</p>
-                    <p class="font-light text-base w-[28rem] text-justify leading-relaxed">
-                        Vivamus et, est rutrum elit netus malesuada ac cursus. Augue mauris tellus quis cras quam magna.
-                        Tincidunt condimentum magnis vitae magna blandit ornare felis, tortor non.
-                    </p>
                 </div>
             </div>
-            <div class="py-10">
-                <img class="ml-40" src={{ 'images/girl_library.png' }} alt="">
-            </div>
+            <div><img class="hidden" src={{ 'images/girl_library.png' }} alt=""></div>
         </div>
 
+
+        {{-- <div class="p-40 grid">
+            <div>
+                <h2 class="font-bold pb-10 font-mavenPro text-2xl ml-56">Universidad Tecnológica de Nayarit</h2>
+            </div>
+            <div>
+                <p class="font-light text-base w-[28rem] text-justify leading-relaxed mb-4">Justo
+                    malesuada
+                    tempor
+                    lacus,
+                    posuere.
+                    Consequat
+                    sagittis
+                    sed tortor leo
+                    id
+                    scelerisque ac elit
+                    curabitur. Dignissim et id at netus. Facilisi integer quis feugiat tempus. Cursus feugiat felis
+                    etiam ipsum, in mauris sit eget habitant.
+
+                    Vivamus et, est rutrum elit netus malesuada ac cursus. Augue mauris tellus quis cras quam magna.
+                    Tincidunt condimentum magnis vitae magna blandit ornare felis, tortor non.</p>
+                <p class="font-light text-base w-[28rem] text-justify leading-relaxed">
+                    Vivamus et, est rutrum elit netus malesuada ac cursus. Augue mauris tellus quis cras quam magna.
+                    Tincidunt condimentum magnis vitae magna blandit ornare felis, tortor non.
+                </p>
+            </div>
+        </div>
+        <div class="py-10">
+            <img class="ml-40" src={{ 'images/girl_library.png' }} alt="">
+        </div> --}}
         {{-- div barra numeros --}}
         {{-- TODO: Bars texto y espaciados --}}
         <div class="grid grid-cols-4 bg-bars w-screen h-[8rem]  py-8 px-16">
