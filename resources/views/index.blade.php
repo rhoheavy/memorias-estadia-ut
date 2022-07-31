@@ -13,7 +13,7 @@
 <body>
 
     {{-- menu de navegación --}}
-    <nav class="bg-contrast text-links font-workSans md:text-sm lg:text-base">
+    <nav class="bg-contrast text-links font-workSans w-screen md:text-sm lg:text-base">
 
         <div class="pl-10 pr-20 mx-auto">
             <div class="flex justify-between items-center">
@@ -60,17 +60,18 @@
 
         {{-- contenedor headliner --}}
         {{-- TODO: Centrar texto boton m-[]?? --}}
-        <div class="grid grid-cols-1 grid-rows-2 w-screen h-[30rem]  p-14 text-center bg-no-repeat bg-cover bg-center lg:h-[36rem] gap-28"
-            style="background-image: url({{ 'images/students.png' }})">
+        {{-- div headliner --}}
+        <div class="grid h-[30rem] text-center justify-center bg-no-repeat bg-cover bg-center "
+            style="background-image: url({{ 'images/students2.png' }})">
             {{-- div del h1 --}}
-            <div class=" w-[38rem] h-12 md:p-10 lg: pt-5 m-auto">
-                <h1 class="text-white font-mavenPro font-semibold text-6xl w-[38rem] h-12 md:p-10 lg: pt-5">
+            <div class=" w-[24rem] h-auto pt-20 grid-row-start">
+                <h1 class="text-white font-mavenPro font-semibold text-4xl ">
                     Tus Memorias en un solo Sitio
                 </h1>
             </div>
             {{-- div button --}}
-            <div class="w-[10rem] h-[2.8rem] justify-self-center ml-2 md:ml-14">
-                <button class=" bg-button px-4 py-2 w-[10rem] h-[2.8rem] text-white" type="button">
+            <div class="w-[10rem] h-[2.8rem] justify-self-center row-span-6">
+                <button class=" bg-button px-4 py-2 w-[10rem] h-[2.8rem] text-white rounded" type="button">
                     Comenzar
                 </button>
             </div>
@@ -80,7 +81,7 @@
         {{-- TODO: Se puede mejorar el responsive de la barra , figure out hidden property --}}
         <div
             class="grid grid-rows-1 grid-cols-3 bg-contrast2 h-[10rem] w-screen text-white pl-2    pr-40  py-8 items-center">
-            <div class="flex grid grid-cols-2 grid-rows-1">
+            <div class=" grid grid-cols-2 grid-rows-1">
                 <div> <img class="md:invisible lg:visible pl-44" src={{ 'images/search.svg' }} alt="imagen"></div>
                 <div>
                     <h4 class="font-semibold font-workSans">Titulo</h4>
@@ -129,19 +130,35 @@
 
         {{-- div informacion universidad --}}
         {{-- TODO: Fix padding imagen a la derecha --}}
-        <div class="grid grid-cols-2 w-screen">
-            <div class="p-36">
-                <h3 class="font-bold pb-10 font-mavenPro">Universidad Tecnológica de Nayarit</h3>
-                <p class="font-light">Justo malesuada tempor lacus, posuere. Consequat sagittis sed tortor leo id
-                    scelerisque ac elit
-                    curabitur. Dignissim et id at netus. Facilisi integer quis feugiat tempus. Cursus feugiat felis
-                    etiam ipsum, in mauris sit eget habitant.
+        <div class="grid grid-cols-2 grid-rows-1 w-screen">
+            <div class="p-40 grid">
+                <div>
+                    <h2 class="font-bold pb-10 font-mavenPro text-2xl ml-56">Universidad Tecnológica de Nayarit</h2>
+                </div>
+                <div>
+                    <p class="font-light text-base w-[28rem] text-justify leading-relaxed mb-4">Justo
+                        malesuada
+                        tempor
+                        lacus,
+                        posuere.
+                        Consequat
+                        sagittis
+                        sed tortor leo
+                        id
+                        scelerisque ac elit
+                        curabitur. Dignissim et id at netus. Facilisi integer quis feugiat tempus. Cursus feugiat felis
+                        etiam ipsum, in mauris sit eget habitant.
 
-                    Vivamus et, est rutrum elit netus malesuada ac cursus. Augue mauris tellus quis cras quam magna.
-                    Tincidunt condimentum magnis vitae magna blandit ornare felis, tortor non.</p>
+                        Vivamus et, est rutrum elit netus malesuada ac cursus. Augue mauris tellus quis cras quam magna.
+                        Tincidunt condimentum magnis vitae magna blandit ornare felis, tortor non.</p>
+                    <p class="font-light text-base w-[28rem] text-justify leading-relaxed">
+                        Vivamus et, est rutrum elit netus malesuada ac cursus. Augue mauris tellus quis cras quam magna.
+                        Tincidunt condimentum magnis vitae magna blandit ornare felis, tortor non.
+                    </p>
+                </div>
             </div>
             <div class="py-10">
-                <img src={{ 'images/girl_library.png' }} alt="">
+                <img class="ml-40" src={{ 'images/girl_library.png' }} alt="">
             </div>
         </div>
 
