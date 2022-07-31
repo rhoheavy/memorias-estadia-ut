@@ -191,7 +191,7 @@
         </div> --}}
         {{-- div barra numeros --}}
         {{-- TODO: Bars texto y espaciados --}}
-        <div class="grid grid-cols-4 bg-bars w-screen h-[8rem]  py-8 px-16">
+        <div class="hidden sm:grid grid-cols-4 bg-bars w-screen h-[8rem] p-10">
             <div>
                 <h3 class="text-button">2324</h3>
                 <p class="text-white">Sit fermentum, lectus eu aliquam ornare varius pharetra.</p>
