@@ -135,15 +135,15 @@
 
         {{-- seccion saber más --}}
         {{-- TODO: Centrar texto, barra verde y centrar imagenes, fix overlapping con footer --}}
-        <div class="grid grid-rows-2 bg-bluish w-screen h-[18rem] p-10 text-center">
-            <div class="">
+        <div class="grid grid-rows-2 grid-cols-1 bg-bluish w-screen h-[42rem] p-10 text-center ">
+            <div class="h-16 row-span-2">
                 <h4>Para saber más</h4>
             </div>
-            {{-- <div class="grid grid-cols-3">
-                <img src={{ 'images/imageSep.png' }} alt="sep">
-                <img src={{ 'images/imageNay.png' }} alt="nay">
-                <img src={{ 'images/imageSocial.png' }} alt="social">
-            </div> --}}
+            <div class="grid grid-rows-3 row-span-3 pt-12 place-content-center">
+                <img class="place-self-center" src={{ 'images/imageSep.png' }} alt="sep">
+                <img class="place-self-center" src={{ 'images/imageNay.png' }} alt="nay">
+                <img class="place-self-center" src={{ 'images/imageSocial.png' }} alt="social">
+            </div>
         </div>
 
         {{-- footer --}}
