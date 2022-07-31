@@ -58,8 +58,7 @@
 
     <main class="">
 
-        {{-- contenedor headliner --}}
-        {{-- TODO: Centrar texto boton m-[]?? --}}
+        {{-- TODO: Tamaños grandes md: --}}
         {{-- div headliner --}}
         <div class="grid h-[30rem] text-center justify-center bg-no-repeat bg-cover bg-center "
             style="background-image: url({{ 'images/students2.png' }})">
@@ -78,55 +77,69 @@
         </div>
 
         {{-- div bar steps --}}
-        {{-- TODO: Se puede mejorar el responsive de la barra , figure out hidden property --}}
-        <div
-            class="grid grid-rows-1 grid-cols-3 bg-contrast2 h-[10rem] w-screen text-white pl-2    pr-40  py-8 items-center">
-            <div class=" grid grid-cols-2 grid-rows-1">
-                <div> <img class="md:invisible lg:visible pl-44" src={{ 'images/search.svg' }} alt="imagen"></div>
-                <div>
-                    <h4 class="font-semibold font-workSans">Titulo</h4>
-                    <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
-                        ipsum
-                        dolor
-                        sit
-                        amet consectetur
-                        adipisicing elit.
-                        Vitae sint
-                        consequatur voluptates ipsum
-                        harum.</p>
-                </div>
+        {{-- TODO: Tamaño md: mostrar texto --}}
+
+        <div class="grid grid-cols-3 bg-contrast2 h-[10rem] w-screen text-white p-5 text-center">
+            <div class="grid grid-rows-2 grid-cols-1 p-2">
+                <div class="row-span-2">Busca</div>
+                <div class="ml-3 row-span-3"><img src={{ 'images/search.svg' }} alt="busqueda"></div>
             </div>
-            <div class="grid grid-cols-2 grid-rows-1">
-                <div> <img class="md:invisible lg:visible pl-44" src={{ 'images/book.svg' }} alt="imagen"></div>
-                <div>
-                    <h4 class="font-semibold font-workSans">Titulo</h4>
-                    <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
-                        ipsum
-                        dolor
-                        sit
-                        amet consectetur
-                        adipisicing elit.
-                        Vitae sint
-                        consequatur voluptates ipsum
-                        harum.</p>
-                </div>
+            <div class="grid grid-rows-2 grid-cols-1 p-2">
+                <div class="row-span-2">Lee</div>
+                <div class="ml-5 row-span-3"><img src={{ 'images/book.svg' }} alt="busqueda"></div>
             </div>
-            <div class="grid grid-cols-2 grid-rows-1">
-                <div> <img class="md:invisible lg:visible pl-44" src={{ 'images/download.svg' }} alt="imagen"></div>
-                <div>
-                    <h4 class="font-semibold font-workSans">Titulo</h4>
-                    <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
-                        ipsum
-                        dolor
-                        sit
-                        amet consectetur
-                        adipisicing elit.
-                        Vitae sint
-                        consequatur voluptates ipsum
-                        harum.</p>
-                </div>
+            <div class="grid grid-rows-2 grid-cols-1 p-2">
+                <div class="row-span-2">Descarga</div>
+                <div class="ml-7 row-span-3"><img src={{ 'images/download.svg' }} alt="busqueda"></div>
             </div>
         </div>
+
+
+        {{-- <div class=" grid grid-cols-2 grid-rows-1">
+            <div> <img class="flex md:hidden lg:flex pl-44" src={{ 'images/search.svg' }} alt="imagen"></div>
+            <div>
+                <h4 class="font-semibold font-workSans">Titulo</h4>
+                <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
+                    ipsum
+                    dolor
+                    sit
+                    amet consectetur
+                    adipisicing elit.
+                    Vitae sint
+                    consequatur voluptates ipsum
+                    harum.</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 grid-rows-1">
+            <div> <img class="md:invisible lg:visible pl-44" src={{ 'images/book.svg' }} alt="imagen"></div>
+            <div>
+                <h4 class="font-semibold font-workSans">Titulo</h4>
+                <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
+                    ipsum
+                    dolor
+                    sit
+                    amet consectetur
+                    adipisicing elit.
+                    Vitae sint
+                    consequatur voluptates ipsum
+                    harum.</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 grid-rows-1">
+            <div> <img class="md:invisible lg:visible pl-44" src={{ 'images/download.svg' }} alt="imagen"></div>
+            <div>
+                <h4 class="font-semibold font-workSans">Titulo</h4>
+                <p class="hidden sm:flex text-xs md:visible font-light text-links  lg:text-sm">Lorem
+                    ipsum
+                    dolor
+                    sit
+                    amet consectetur
+                    adipisicing elit.
+                    Vitae sint
+                    consequatur voluptates ipsum
+                    harum.</p>
+            </div>
+        </div> --}}
 
         {{-- div informacion universidad --}}
         {{-- TODO: Fix padding imagen a la derecha --}}
