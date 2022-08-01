@@ -58,7 +58,6 @@
 
     <main class="">
 
-        {{-- TODO: Tamaños grandes md: --}}
         {{-- div headliner --}}
         <div class="grid h-[30rem] text-center justify-center bg-no-repeat bg-cover bg-center "
             style="background-image: url({{ 'images/students2.png' }})">
@@ -77,7 +76,7 @@
         </div>
 
         {{-- div bar steps --}}
-        {{-- TODO: Tamaño md: mostrar texto --}}
+        {{-- TODO: Tamaño lg: mostrar texto --}}
 
         <div class="grid grid-cols-3 bg-contrast2 h-[10rem] w-screen text-white p-5 text-center">
             <div class="grid grid-rows-2 grid-cols-1 p-2">
@@ -97,10 +96,11 @@
         {{-- div informacion universidad --}}
         {{-- TODO: Tamaños md: imagen --}}
 
-        <div class="grid w-screen h-[32rem]">
+        <div class="grid w-screen h-[32rem] md:grid-cols-2">
             <div class="px-10">
-                <div class="pt-16 font-semibold text-center pb-10">Universidad Tecnológica de Nayarit</div>
-                <div class="font-extralight text-justify">
+                <div class="pt-16 font-semibold text-center pb-10 md:pl-11">Universidad Tecnológica de Nayarit
+                </div>
+                <div class="font-extralight text-justify md:text-sm pl-12">
                     <p class="pb-4">Justo malesuada tempor lacus, posuere. Consequat sagittis sed tortor leo id
                         scelerisque ac elit
                         curabitur. Dignissim et id at netus. Facilisi integer quis feugiat tempus. Cursus feugiat felis
@@ -109,33 +109,34 @@
                         Tincidunt condimentum magnis vitae magna blandit ornare felis, tortor non.</p>
                 </div>
             </div>
-            <div><img class="hidden" src={{ 'images/girl_library.png' }} alt=""></div>
+            <div><img class="hidden md:flex w-64 mx-auto py-14" src={{ 'images/girl_library.png' }} alt="">
+            </div>
         </div>
 
         {{-- div barra numeros --}}
         {{-- TODO: Tamaños md: --}}
         <div class="grid grid-cols-4 gap-x-2 bg-bars w-screen h-[8rem] p-10">
-            <div>
+            <div class="mx-auto">
                 <h3 class="text-button">12</h3>
                 <p class="text-white text-xs font-light">Carreras</p>
             </div>
-            <div>
+            <div class="mx-auto">
                 <h3 class="text-button">20</h3>
                 <p class="text-white text-xs font-light">Convenios</p>
             </div>
-            <div>
+            <div class="mx-auto">
                 <h3 class="text-button">+300</h3>
                 <p class="text-white text-xs font-light">Estudiantes</p>
             </div>
-            <div>
+            <div class="mx-auto">
                 <h3 class="text-button">+5000</h3>
                 <p class="text-white text-xs font-light">Egresados</p>
             </div>
         </div>
 
         {{-- seccion saber más --}}
-        {{-- TODO: Centrar texto, barra verde y centrar imagenes, fix overlapping con footer --}}
-        <div class="grid grid-rows-2 grid-cols-1 bg-bluish w-screen h-[42rem] p-10 text-center ">
+        {{-- TODO: lg: --}}
+        <div class="grid grid-rows-2 grid-cols-1 bg-bluish w-screen h-[42rem] p-10 text-center">
             <div class="h-16 row-span-2">
                 <h4>Para saber más</h4>
             </div>
@@ -147,22 +148,24 @@
         </div>
 
         {{-- footer --}}
-        {{-- TODO: Posicionar textos, fuentes y tamaños, input form y texto copyright --}}
+        {{-- TODO: Tamaño md: maybe pegar el boton al input --}}
 
-        <div class="bg-contrast2 w-screen h-[15rem] grid grid-cols-1 grid-rows-2">
-            <div class="text-center pt-5">
+        <div class="bg-contrast2 w-screen h-[15rem] grid grid-cols-1 grid-rows-2 md:grid-cols-2">
+            <div class="text-center pt-5 md:text-left p-16 pt-10">
                 <p class="text-white"> Mantente al tanto de las <span class="text-button">actualizaciones</span> </p>
                 <p class="text-xs text-links font-zlight">Te haremos saber cuando lleguen nuevas memorias</p>
             </div>
             {{-- input suscripcion correo --}}
-            <div class="input-group mx-auto">
+            <div class="input-group mx-auto mt-7 md:my-auto pt-5">
                 <input class="text-xs h-8 rounded p-4" type="email" name="email" id="email"
                     placeholder="Correo electrónico">
                 <button class="bg-button text-white text-xs h-8 rounded px-2">Enviar</button>
             </div>
             {{-- copyright --}}
-            <div>
-                <p class="text-links text-xs px-5 py-2 text-center font-light">© 2022 Universidad Tecnológica de
+            <div class="md:col-span-3 row-end-4 pb-2">
+                <p class="text-links text-xs px-5 py-2 text-center font-light ">© 2022 Universidad
+                    Tecnológica
+                    de
                     Nayarit. Derechos
                     Reservados.</p>
             </div>
