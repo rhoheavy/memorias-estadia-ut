@@ -149,15 +149,22 @@
         {{-- footer --}}
         {{-- TODO: Posicionar textos, fuentes y tamaños, input form y texto copyright --}}
 
-        <div class="bg-contrast2 w-screen h-[15rem] grid grid-cols-2">
-            <div>
-                <p class="text-white"> Mantente al tanto de las actualizaciones</p>
+        <div class="bg-contrast2 w-screen h-[15rem] grid grid-cols-1 grid-rows-2">
+            <div class="text-center pt-5">
+                <p class="text-white"> Mantente al tanto de las <span class="text-button">actualizaciones</span> </p>
+                <p class="text-xs text-links font-zlight">Te haremos saber cuando lleguen nuevas memorias</p>
             </div>
-            <div>
-                <input type="email" name="" id="">
+            {{-- input suscripcion correo --}}
+            <div class="input-group mx-auto">
+                <input class="text-xs h-8 rounded p-4" type="email" name="email" id="email"
+                    placeholder="Correo electrónico">
+                <button class="bg-button text-white text-xs h-8 rounded px-2">Enviar</button>
             </div>
+            {{-- copyright --}}
             <div>
-                <p class="text-white">© 2022 Universidad Tecnológica de Nayarit. Derechos Reservados.</p>
+                <p class="text-links text-xs px-5 py-2 text-center font-light">© 2022 Universidad Tecnológica de
+                    Nayarit. Derechos
+                    Reservados.</p>
             </div>
         </div>
 
