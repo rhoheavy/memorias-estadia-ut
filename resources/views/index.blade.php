@@ -76,29 +76,29 @@
         </div>
 
         {{-- div bar steps --}}
-        {{-- TODO: Tamaño lg: mostrar texto --}}
-
-        <div class="grid grid-cols-3 bg-contrast2 h-[10rem] w-screen text-white p-5 text-center">
+        <div class="grid grid-cols-3 bg-contrast2 h-[10rem] w-screen text-white p-5 text-center xl:h-[8rem]">
             <div class="grid grid-rows-2 grid-cols-1 p-2">
                 <div class="row-span-2">Busca</div>
-                <div class=" row-span-3 justify-self-center"><img src={{ 'images/search.svg' }} alt="busqueda"></div>
+                <div class=" row-span-3 justify-self-center"><img src={{ 'images/search.svg' }} alt="busqueda">
+                </div>
             </div>
             <div class="grid grid-rows-2 grid-cols-1 p-2">
                 <div class="row-span-2">Lee</div>
-                <div class=" row-span-3 justify-self-center"><img src={{ 'images/book.svg' }} alt="busqueda"></div>
+                <div class=" row-span-3 justify-self-center"><img src={{ 'images/book.svg' }} alt="libro"></div>
             </div>
             <div class="grid grid-rows-2 grid-cols-1 p-2">
                 <div class="row-span-2">Descarga</div>
-                <div class="justify-self-center row-span-3"><img src={{ 'images/download.svg' }} alt="busqueda"></div>
+                <div class="justify-self-center row-span-3"><img src={{ 'images/download.svg' }} alt="descarga"></div>
             </div>
         </div>
 
         {{-- div informacion universidad --}}
-        {{-- TODO: Tamaños md: imagen --}}
+        {{-- TODO: Tamaños default y sm: centrar texto lg: ampliar tamaño texto e imagen --}}
 
         <div class="grid w-screen h-[32rem] md:grid-cols-2">
             <div class="px-10">
-                <div class="pt-16 font-semibold text-center pb-10 md:pl-11">Universidad Tecnológica de Nayarit
+                <div class="pt-16 font-semibold text-center pb-10 md:pl-11">Universidad Tecnológica de
+                    Nayarit
                 </div>
                 <div class="font-extralight text-justify md:text-sm pl-12">
                     <p class="pb-4">Justo malesuada tempor lacus, posuere. Consequat sagittis sed tortor leo id
@@ -135,12 +135,12 @@
         </div>
 
         {{-- seccion saber más --}}
-        {{-- TODO: lg: --}}
-        <div class="grid grid-rows-2 grid-cols-1 bg-bluish w-screen h-[42rem] p-10 text-center">
+        {{-- TODO: lg: mostrar tres columnas horinzontal view --}}
+        <div class="grid grid-rows-2 grid-cols-1 bg-bluish w-screen h-[42rem] p-10 text-center xl:h-[22rem]">
             <div class="h-16 row-span-2">
                 <h4>Para saber más</h4>
             </div>
-            <div class="grid grid-rows-3 row-span-3 pt-12 place-content-center">
+            <div class="grid grid-rows-3 row-span-3 pt-12 place-content-center xl:grid-cols-3">
                 <img class="place-self-center" src={{ 'images/imageSep.png' }} alt="sep">
                 <img class="place-self-center" src={{ 'images/imageNay.png' }} alt="nay">
                 <img class="place-self-center" src={{ 'images/imageSocial.png' }} alt="social">
@@ -151,7 +151,7 @@
         {{-- TODO: Tamaño md: maybe pegar el boton al input --}}
 
         <div class="bg-contrast2 w-screen h-[15rem] grid grid-cols-1 grid-rows-2 md:grid-cols-2">
-            <div class="text-center pt-5 md:text-left p-16 pt-10">
+            <div class="text-center  md:text-left p-16 pt-10">
                 <p class="text-white"> Mantente al tanto de las <span class="text-button">actualizaciones</span> </p>
                 <p class="text-xs text-links font-zlight">Te haremos saber cuando lleguen nuevas memorias</p>
             </div>
