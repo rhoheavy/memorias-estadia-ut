@@ -147,6 +147,13 @@
             </div>
         </div>
 
+        {{--Api--}}
+        <div>
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="zooZwA15"></script>
+            <div class="fb-page" data-href="https://www.facebook.com/UTNAY" data-tabs="timeline" data-width="360" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/UTNAY" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UTNAY">Universidad Tecnológica de Nayarit</a></blockquote></div>
+        </div>
+
         {{-- footer --}}
         {{-- TODO: Tamaño md: maybe pegar el boton al input --}}
 
